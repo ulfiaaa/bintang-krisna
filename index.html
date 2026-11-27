@@ -307,7 +307,7 @@ const CONFIG = {
   accountName: "Bintang / Krisna",
   accountNumber: "0000000000",
   giftAddress: "Nama penerima: Bintang & Krisna\\nAlamat lengkap penerima, Kota, Kode Pos",
-  whatsapp: "6281234567890", // Nomor admin jasa undangan, format internasional tanpa +
+  whatsapp: "6285966325866", // Nomor admin jasa undangan, format internasional tanpa +
   whatsappMessage: "Halo, saya ingin bertanya tentang jasa pembuatan undangan digital.",
   musicUrl: "Dayang Nurfaizah – Ketipang Payung (Official Music Video).mp3", // Masukkan file music.mp3 ke folder yang sama
   // Tempel URL Web App Google Apps Script yang berakhiran /exec.
@@ -339,7 +339,7 @@ $("accountNumber").textContent = CONFIG.accountNumber;
 $("giftAddress").textContent = CONFIG.giftAddress;
 $("weddingMusic").src = CONFIG.musicUrl;
 $("year").textContent = new Date().getFullYear();
-const waUrl = "https://wa.me/6285966325866" + CONFIG.whatsapp + "?text=" + encodeURIComponent(CONFIG.whatsappMessage);
+const waUrl = "https://wa.me/" + CONFIG.whatsapp + "?text=" + encodeURIComponent(CONFIG.whatsappMessage);
 $("waLink").href = waUrl; $("waFloat").href = waUrl;
 
 const music=$("weddingMusic"),musicBtn=$("musicToggle");
